@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Helping Hands Coin (HHC) – Humanitarian Memecoin</title>
+  <meta name="description" content="Helping Hands Coin (HHC) is a humanitarian memecoin directing transparent donations to Mercy Corps for Gaza relief." />
+  <!-- Descripción en español: Helping Hands Coin (HHC) es una memecoin humanitaria que dirige donaciones transparentes a Mercy Corps para ayuda en Gaza. -->
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Helping Hands Coin logo" class="logo" />
+      <div>
+        <p class="brand-name">Helping Hands Coin (HHC)</p>
+        <p class="brand-tagline" data-i18n="heroSubtitle">A humanitarian memecoin supporting Gaza through transparent donations to Mercy Corps.</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#hero" data-i18n="navHero" class="nav-link">Hero</a>
+      <a href="#how-we-help" data-i18n="navHow" class="nav-link">How We Help</a>
+      <a href="#transparency" data-i18n="navTransparency" class="nav-link">Transparency</a>
+      <a href="#wallets" data-i18n="navWallets" class="nav-link">Wallets</a>
+      <a href="#mercy-corps" data-i18n="navMercy" class="nav-link">Mercy Corps</a>
+      <a href="#roadmap" data-i18n="navRoadmap" class="nav-link">Roadmap</a>
+      <a href="#faq" data-i18n="navFaq" class="nav-link">FAQ</a>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" class="lang-btn lang-active" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="card hero">
+      <div>
+        <p class="eyebrow" data-i18n="heroEyebrow">Humanitarian memecoin for real-world relief</p>
+        <h1 data-i18n="heroTitle">Helping Hands Coin (HHC)</h1>
+        <p class="lead" data-i18n="heroIntro">A transparent, community-driven memecoin channeling donations directly to Mercy Corps for urgent support in Gaza.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#wallets" data-i18n="ctaWallets">View Donation Wallets</a>
+          <a class="btn btn-secondary" href="#transparency" data-i18n="ctaTransparency">Transparency &amp; Audits</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/logo.png" alt="Helping Hands Coin globe logo" class="hero-logo" />
+      </div>
+    </section>
+
+    <section id="how-we-help" class="card">
+      <div class="section-header">
+        <h2 data-i18n="howTitle">How We Help</h2>
+        <p data-i18n="howSubtitle">Simple, community-powered impact with full transparency.</p>
+      </div>
+      <div class="grid help-grid">
+        <article class="info-card">
+          <div class="icon">🤝</div>
+          <h3 data-i18n="howItem1Title">Community-powered donations</h3>
+          <p data-i18n="howItem1Text">Every meme-fueled contribution moves funds to people who need it most.</p>
+        </article>
+        <article class="info-card">
+          <div class="icon">🌍</div>
+          <h3 data-i18n="howItem2Title">All funds go to Mercy Corps Gaza response</h3>
+          <p data-i18n="howItem2Text">We support a trusted global NGO delivering humanitarian aid in Gaza.</p>
+        </article>
+        <article class="info-card">
+          <div class="icon">🔗</div>
+          <h3 data-i18n="howItem3Title">On-chain transparency + public receipts</h3>
+          <p data-i18n="howItem3Text">Every transfer and receipt is published for anyone to verify.</p>
+        </article>
+        <article class="info-card">
+          <div class="icon">🛡️</div>
+          <h3 data-i18n="howItem4Title">No mixing with team funds</h3>
+          <p data-i18n="howItem4Text">Donation and creator wallets are separated and easy to track.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="transparency" class="card">
+      <div class="section-header">
+        <h2 data-i18n="transparencyTitle">Transparency &amp; Audits</h2>
+        <p data-i18n="transparencyIntro">We separate donation and creator funds, log every transfer, and publish proofs for the community.</p>
+      </div>
+      <div class="transparency-content">
+        <div class="donation-log">
+          <h3 data-i18n="donationsLogTitle">Donations log (examples)</h3>
+          <div class="table">
+            <div class="table-header">
+              <div data-i18n="donationsDate">Date</div>
+              <div data-i18n="donationsAmount">Amount</div>
+              <div data-i18n="donationsHash">Tx hash</div>
+              <div data-i18n="donationsNote">Note</div>
+            </div>
+            <div class="table-row">
+              <div>2024-02-15</div>
+              <div>2.5 ETH</div>
+              <div><a href="#" aria-label="Transaction hash">0xabc123...89ef</a></div>
+              <div data-i18n="donationsNote1">Pilot donation to Mercy Corps Gaza response</div>
+            </div>
+            <div class="table-row">
+              <div>2024-03-01</div>
+              <div>1.2 ETH</div>
+              <div><a href="#" aria-label="Transaction hash">0xdef456...45aa</a></div>
+              <div data-i18n="donationsNote2">Community match round</div>
+            </div>
+            <div class="table-row">
+              <div>2024-03-20</div>
+              <div>3,500 USDC</div>
+              <div><a href="#" aria-label="Transaction hash">0x987fed...1029</a></div>
+              <div data-i18n="donationsNote3">Emergency transfer with receipt attached</div>
+            </div>
+          </div>
+        </div>
+        <aside class="audit-card">
+          <h3 data-i18n="auditTitle">Audits &amp; Proofs</h3>
+          <ul>
+            <li data-i18n="auditItem1">Receipt snapshots for every donation to Mercy Corps.</li>
+            <li data-i18n="auditItem2">Links to official Mercy Corps reports and confirmations.</li>
+            <li data-i18n="auditItem3">Public addresses for community verification at any time.</li>
+            <li data-i18n="auditItem4">Independent community reviews encouraged.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="wallets" class="card">
+      <div class="section-header">
+        <h2 data-i18n="walletsTitle">Wallets</h2>
+        <p data-i18n="walletsSubtitle">Donation and creator funds are separated for clarity.</p>
+      </div>
+      <div class="wallet-grid">
+        <article class="wallet-card">
+          <div class="wallet-top">
+            <h3 data-i18n="donationWalletTitle">Donation Wallet (Humanitarian Only)</h3>
+            <p data-i18n="donationWalletText">Used exclusively for donations sent to Mercy Corps for Gaza relief.</p>
+          </div>
+          <div class="wallet-address">
+            <code id="donation-address">0xDONATIONWALLETHELPINGHANDS1234...</code>
+            <div class="wallet-actions">
+              <button class="btn small" data-copy-target="donation-address" data-i18n="copyLabel">Copy</button>
+              <span class="copy-feedback" data-feedback-for="donation-address" data-i18n="copyReady">Ready to copy</span>
+            </div>
+          </div>
+        </article>
+        <article class="wallet-card">
+          <div class="wallet-top">
+            <h3 data-i18n="creatorWalletTitle">Creator / Operations Wallet</h3>
+            <p data-i18n="creatorWalletText">For team operations, separate from donation flows.</p>
+          </div>
+          <div class="wallet-address">
+            <code id="creator-address">0xCREATORWALLETHHC5678...</code>
+            <div class="wallet-actions">
+              <button class="btn small" data-copy-target="creator-address" data-i18n="copyLabel">Copy</button>
+              <span class="copy-feedback" data-feedback-for="creator-address" data-i18n="copyReady">Ready to copy</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="footnote" data-i18n="walletsFootnote">The community can verify both wallets at any time on-chain.</p>
+    </section>
+
+    <section id="mercy-corps" class="card mercy-card">
+      <div class="section-header">
+        <h2 data-i18n="mercyTitle">Why Mercy Corps?</h2>
+        <p data-i18n="mercySubtitle">We partner with a globally recognized humanitarian organization.</p>
+      </div>
+      <div class="mercy-content">
+        <img src="assets/mercy-corps.png" alt="Mercy Corps logo" class="mercy-logo" />
+        <div>
+          <p data-i18n="mercyText">Mercy Corps is an international NGO known for transparent, audited humanitarian work. They accept crypto-driven donations and operate on the ground in Gaza.</p>
+          <ul>
+            <li data-i18n="mercyBullet1">40+ years of emergency response experience.</li>
+            <li data-i18n="mercyBullet2">Active presence on the ground in Gaza.</li>
+            <li data-i18n="mercyBullet3">Regular audited reports and accountability.</li>
+          </ul>
+          <a class="btn" href="https://www.mercycorps.org/" target="_blank" rel="noopener" data-i18n="mercyButton">Visit Mercy Corps official site</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow" class="card">
+      <div class="section-header">
+        <h2 data-i18n="workflowTitle">How Donations Work</h2>
+        <p data-i18n="workflowSubtitle">Clear steps from community contributions to Mercy Corps impact.</p>
+      </div>
+      <ol class="timeline">
+        <li>
+          <h3 data-i18n="workflowStep1Title">Send funds to the Donation Wallet</h3>
+          <p data-i18n="workflowStep1Text">Community members contribute directly to the public humanitarian address.</p>
+        </li>
+        <li>
+          <h3 data-i18n="workflowStep2Title">Reach a target, then transfer to Mercy Corps</h3>
+          <p data-i18n="workflowStep2Text">Once thresholds are hit, the team sends funds to Mercy Corps.</p>
+        </li>
+        <li>
+          <h3 data-i18n="workflowStep3Title">Publish tx hash + receipt</h3>
+          <p data-i18n="workflowStep3Text">We log the transaction hash and share the donation receipt publicly.</p>
+        </li>
+        <li>
+          <h3 data-i18n="workflowStep4Title">Update the log and notify the community</h3>
+          <p data-i18n="workflowStep4Text">Records stay up to date, and the community gets clear proof.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="roadmap" class="card">
+      <div class="section-header">
+        <h2 data-i18n="roadmapTitle">Roadmap</h2>
+        <p data-i18n="roadmapSubtitle">Focused milestones to build trust and impact.</p>
+      </div>
+      <div class="timeline roadmap">
+        <div class="milestone">
+          <h3 data-i18n="roadmap1Title">Launch of HHC website</h3>
+          <p data-i18n="roadmap1Text">Publish the official landing page and donation addresses.</p>
+        </div>
+        <div class="milestone">
+          <h3 data-i18n="roadmap2Title">First donation target</h3>
+          <p data-i18n="roadmap2Text">Reach the first community-funded transfer to Mercy Corps.</p>
+        </div>
+        <div class="milestone">
+          <h3 data-i18n="roadmap3Title">First public audit/recap</h3>
+          <p data-i18n="roadmap3Text">Share receipts, hashes, and a transparent recap report.</p>
+        </div>
+        <div class="milestone">
+          <h3 data-i18n="roadmap4Title">Community governance experiments</h3>
+          <p data-i18n="roadmap4Text">Test voting on donation timing and NGO expansions.</p>
+        </div>
+        <div class="milestone">
+          <h3 data-i18n="roadmap5Title">Future expansions</h3>
+          <p data-i18n="roadmap5Text">Explore more networks and vetted humanitarian partners.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="card">
+      <div class="section-header">
+        <h2 data-i18n="faqTitle">Frequently Asked Questions</h2>
+        <p data-i18n="faqSubtitle">Answers to common questions from our community.</p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary data-i18n="faq1Q">What is Helping Hands Coin (HHC)?</summary>
+          <p data-i18n="faq1A">HHC is a humanitarian memecoin directing transparent donations to Mercy Corps for Gaza relief.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq2Q">Is this an investment?</summary>
+          <p data-i18n="faq2A">No. HHC focuses on charitable impact; always do your own research before engaging with any token.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq3Q">How do I know the money really reaches Mercy Corps?</summary>
+          <p data-i18n="faq3A">We publish transaction hashes, receipts, and separate wallets so anyone can verify the flow of funds.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq4Q">Can I donate without buying the memecoin?</summary>
+          <p data-i18n="faq4A">Yes. You can send crypto directly to the Donation Wallet and we will forward it to Mercy Corps.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq5Q">What blockchains are supported?</summary>
+          <p data-i18n="faq5A">We start with Ethereum and stablecoins; more chains may be added with community input.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq6Q">How often will you donate?</summary>
+          <p data-i18n="faq6A">We aim for regular transfers whenever targets are met and will announce each donation.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq7Q">Will Mercy Corps officially endorse the project?</summary>
+          <p data-i18n="faq7A">HHC is an independent community effort; we share receipts and confirmations but are not officially affiliated.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq8Q">What makes this different from other memecoins?</summary>
+          <p data-i18n="faq8A">Transparent wallets, clear donation logs, and a focus on real humanitarian outcomes.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <p class="brand-name">Helping Hands Coin (HHC)</p>
+        <p data-i18n="footerNote">Helping Hands Coin (HHC) is an independent community initiative and is not officially affiliated with Mercy Corps.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero" data-i18n="footerHome">Home</a>
+        <a href="#transparency" data-i18n="footerTransparency">Transparency</a>
+        <a href="#wallets" data-i18n="footerWallets">Wallets</a>
+        <a href="#faq" data-i18n="footerFaq">FAQ</a>
+      </div>
+    </div>
+    <p class="disclaimer" data-i18n="footerDisclaimer">This is not financial advice. Always do your own research.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
