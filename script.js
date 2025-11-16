@@ -223,6 +223,7 @@ function applyTranslations(lang) {
   });
   currentLang = lang;
   localStorage.setItem(LANGUAGE_KEY, lang);
+  document.documentElement.setAttribute('lang', lang);
   updateLangButtons();
 }
 
